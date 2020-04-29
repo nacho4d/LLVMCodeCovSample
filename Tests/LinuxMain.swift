@@ -1,7 +1,7 @@
 import XCTest
 
-import LLVMCodeCovTesterTests
+import LLVMCodeCovExampleTests
 
 var tests = [XCTestCaseEntry]()
-tests += LLVMCodeCovTesterTests.allTests()
+tests += LLVMCodeCovExampleTests.allTests()
 XCTMain(tests)

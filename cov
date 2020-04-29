@@ -1,0 +1,13 @@
+#! /bin/bash
+
+# Test
+swift test --enable-code-coverage
+
+# print out the codecov path
+CODECOV=$(swift test --show-codecov-path)
+
+echo $CODECOV
+
+cat $CODECOV
+
+cat $CODECOV | jq .

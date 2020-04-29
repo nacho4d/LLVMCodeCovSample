@@ -1,20 +1,20 @@
 import XCTest
-@testable import LLVMCodeCovTester
+@testable import LLVMCodeCovExample
 
-final class LLVMCodeCovTesterTests: XCTestCase {
+final class LLVMCodeCovExampleTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(LLVMCodeCovTester().text, "Hello, World!")
+        XCTAssertEqual(LLVMCodeCovExample().text, "Hello, World!")
     }
     
     func testNoParam() {
-        XCTAssertTrue(LLVMCodeCovTester().funcWithoutParams())
+        XCTAssertTrue(LLVMCodeCovExample().funcWithoutParams())
     }
     
     func testParam() {
-        XCTAssertTrue(LLVMCodeCovTester().funcWithOneParam(p: 10))
+        XCTAssertTrue(LLVMCodeCovExample().funcWithOneParam(p: 10))
     }
 
     static var allTests = [

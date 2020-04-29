@@ -1,4 +1,4 @@
-struct LLVMCodeCovTester {
+struct LLVMCodeCovExample{
     var text = "Hello, World!"
     
     func funcWithoutParams() -> Bool {
