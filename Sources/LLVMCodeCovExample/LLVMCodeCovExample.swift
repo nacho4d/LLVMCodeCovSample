@@ -3,7 +3,7 @@ struct LLVMCodeCovExample{
     
     func funcWithoutParams() -> Bool {
         print("call p = 5")
-        _ = funcWithOneParam(p: 5)
+        //_ = funcWithOneParam(p: 5)
         return true
     }
     
